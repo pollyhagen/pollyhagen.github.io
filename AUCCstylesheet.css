@@ -1,0 +1,36 @@
+header {
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+
+body {
+	background: url("https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xat1/t31.0-8/1537645_809408345806987_7516715243689341204_o.jpg");
+	background-size: cover;
+}
+
+h1 {
+	font-family: 'Poiret One', cursive;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+
+}
+
+p {
+	font-size: 18px;
+	color: white;
+}
+
+.video {
+	text-align: center;
+	padding: 0;
+	border: 20px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+    margin: 0;
+}
