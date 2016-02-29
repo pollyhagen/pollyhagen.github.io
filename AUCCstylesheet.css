@@ -2,8 +2,9 @@ header {
 	background-color: rgba(0, 0, 0, 0.5);
 	text-align: center;
 	color: white;
-	font-size: 40px;
+	height: 120px;
 }
+
 
 body {
 	background: url("https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/12122420_10205345173013209_4078441729288903021_n.jpg?oh=007b95846b33540f4679aaa1690582aa&oe=575A2B44");
@@ -29,10 +30,12 @@ p {
 
 .video {
 	text-align: center;
+}
+
+.video iframe {
 	padding: 0;
 	border: 20px solid rgba(0, 0, 0, 0.5);
     border-radius: 0;
-    margin: 0;
 }
 
 .Committee h2 {
