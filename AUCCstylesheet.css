@@ -34,3 +34,8 @@ p {
     border-radius: 0;
     margin: 0;
 }
+
+.Committee h2 {
+	color: white;
+	font-weight: bolder;
+}
