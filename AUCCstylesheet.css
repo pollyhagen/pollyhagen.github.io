@@ -1,5 +1,5 @@
 header {
-	background-color: rgba(0, 0, 0, 0.75);
+	background-color: rgba(0, 0, 0, 0.7);
 	text-align: left;
 	color: white;
 	height: 120px;
@@ -15,6 +15,20 @@ header h1 {
 
 header p {
 	text-align: center;
+}
+
+a {
+	color: white;
+}
+
+ul {
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
 }
 
 body {
@@ -37,6 +51,11 @@ p {
 	color: white;
 }
 
+a {
+	color: white;
+}
+
+
 .video {
 	text-align: center;
 }
@@ -58,7 +77,6 @@ p {
 }
 
 .committee {
-	padding: 0;
 	margin-top: 120px;
 	color: white;
 }
