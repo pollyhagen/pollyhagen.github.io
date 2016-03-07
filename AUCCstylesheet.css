@@ -104,6 +104,11 @@ a:hover {
 	border: 20px solid rgba(0, 0, 0, 0.5);
 }
 
+.content p {
+	background-color: rgba(0, 0, 0, 0.5);
+	display: inline-block;
+}
+
 .picture {
 	padding: 15px 0 15px 0;
 }
