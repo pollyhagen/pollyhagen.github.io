@@ -8,14 +8,6 @@
 </head>
 
 <body>
-	<form action="//submit.form" id="NewsletterSubscription100" method="post" onsubmit="return ValidateForm(this);">
-	<script type="text/javascript">
-	function ValidateForm(frm) {
-	if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
-	if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
-	return true; }
-	</script>
-
 	<header>
 		<div class="row">
 			<div class="col-sm-4">
@@ -47,20 +39,22 @@
 				<p>Sign up to our newsletter to be up to date with what is happening at AUCC:</p>
 				<input name="cf_email" maxlength="60" type="email" placeholder="Your email"/>
 				<input id="skip_Submit" name="skip_Submit" type="submit" value="SUBSCRIBE"/>
-			</form>
+				</form>
 			</div>
-			<br></br>
+			<br>
 			<div id="social-media">
 				<p>Like us on facebook:</p>
 				<iframe src="http://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FAberdeenUniCanoeClub&amp;layout=button_count&amp;show_faces=true&amp;action=like&amp;colorscheme=light" style="width:300px;height:20px;" id="lkbtn" scrolling="no" frameborder="0" allowTransparency="true"></iframe><br> <a href='http://likebutton.net/'>Facebook Button</a> <script type='text/javascript' src='http://likebutton.net/fbauth?id=91d6a5669fac6722bd5bf6edc3d9bfd771cd58c3'></script>
+				<br>
+				<br>
 				<p>Find us on instagram:<p>
 				<a href="https://www.instagram.com/aucanoeclub/">@aucanoeclub</a>
 			</div>
-			<br></br>
+			<br>
 			<div id="email">
 				<p>Or send us an email at <a href="mailto:AUCC@aberdeen.ac.uk">AUCanoeClub@aberdeen.ac.uk</a></p>
 			</div>
-			<br></br>
+			<br>
 			<div id="poolsessions">
 				<p>We're also easy to spot at the ASV Aquatics Centre (<a href="http://maps.google.com/?q=aquatics centre aberdeen sports village">Regent Walk, Aberdeen AB24 1SX</a>):</p>
 				<p>Tuesdays 9pm - 10:30pm</p>
