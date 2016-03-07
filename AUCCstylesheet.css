@@ -100,11 +100,11 @@ a:hover {
 
 .content img {
 	padding: 0;
-	max-height: 70%;
+	max-height: 65vh;
 	border: 20px solid rgba(0, 0, 0, 0.5);
 }
 
-.content p {
+.picture p {
 	background-color: rgba(0, 0, 0, 0.5);
 	display: inline-block;
 }
@@ -112,6 +112,7 @@ a:hover {
 .picture {
 	padding: 15px 0 15px 0;
 }
+
 
 #social-media iframe {
 	padding-left: 120px;

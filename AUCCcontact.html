@@ -8,6 +8,13 @@
 </head>
 
 <body>
+	<form action="//submit.form" id="NewsletterSubscription100" method="post" onsubmit="return ValidateForm(this);">
+	<script type="text/javascript">
+	function ValidateForm(frm) {
+	if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+	if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+	return true; }
+	</script>
 
 	<header>
 		<div class="row">
@@ -36,9 +43,11 @@
 
 		<div id="contacts" class="col-sm-6">
 			<div id="newsletter">
+				<form action="newsletter.php" method="post">
 				<p>Sign up to our newsletter to be up to date with what is happening at AUCC:</p>
-				<input type="email" placeholder="Your email">
-				<input type="submit">
+				<input name="cf_email" maxlength="60" type="email" placeholder="Your email"/>
+				<input id="skip_Submit" name="skip_Submit" type="submit" value="SUBSCRIBE"/>
+			</form>
 			</div>
 			<br></br>
 			<div id="social-media">
